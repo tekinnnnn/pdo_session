@@ -1,0 +1,207 @@
+@CHARSET "UTF-8";
+
+@import
+	url(http://fonts.googleapis.com/css?family=Ubuntu|Raleway|Roboto);
+
+.btn {
+	font-family: Roboto;
+	font-size: 16px;
+	border: 2px solid #b72c33;
+	background-color: #d3404a;
+	color: #fff;
+	padding: 10px 20px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #b72c33;
+}
+
+.ortala {
+	margin: 50px auto;
+	display: block;
+	width: 400px;
+}
+
+body {
+	background-color: #f8f8f8;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 16px;
+}
+
+.giris, input:focus, button:hover {
+	transition: 0.5s;
+}
+
+legend {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	color: #b72c33;
+	padding: 10px 20px;
+}
+
+legend a {
+	color: #b72c33;
+	text-decoration: none;
+}
+
+legend a:hover {
+	text-decoration: underline;
+}
+
+.login-form {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 300px;
+	background-color: #fff;
+	color: #333;
+	padding: 60px 30px;
+	border: 1px solid #ccc;
+}
+
+hr {
+	border: 2px solid #D53F4A;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 25px;
+	font-family: Roboto;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #D53F4A;
+	margin: 0px;
+	padding: 0px 0px;
+}
+
+.input-label {
+	/*width: 23px;*/
+	width: 23px;
+	height: 23px;
+	padding: 8px;
+	border: 1px solid #555;
+	border-right: 0px;
+	display: block;
+	float: left;
+}
+
+input {
+	padding: 10px 5%;
+	font-family: Roboto;
+	font-size: 16px;
+	width: 76%;
+	/*width: 228px;*/
+	border: 1px solid #555;
+	background-color: #f8f8f8;
+	color: #d3404a;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.block {
+	display: block;
+}
+
+.warn {
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+	font-size: 12px;
+	border: 2px solid #B72C33;
+	color: #D3404A;
+}
+
+.kayit input {
+	width: 278px;
+	padding: 10px;
+}
+
+input:focus {
+	background-color: #ccc;
+	color: #d3404a;
+}
+
+button {
+	display: block;
+	font-family: Roboto;
+	font-size: 16px;
+	border: 2px solid #b72c33;
+	background-color: #d3404a;
+	color: #fff;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+
+button:hover {
+	background-color: #B72C33;
+	cursor: pointer;
+}
+
+.giris {
+	font-size: 14px;
+	margin-top: 20px;
+	display: none;
+	position: absolute;
+	text-align: center;
+	bottom: 0px;
+	left: 0px;
+	width: 92%;
+	padding: 15px 4%;
+}
+
+.giris-basarili {
+	display: block;
+	color: #46763D;
+	background-color: #DFF0D8;
+}
+
+.giris-basarisiz {
+	display: block;
+	color: #A94442;
+	background-color: #F2DEDE;
+}
+
+input[type=checkbox].css-checkbox {
+	position: absolute;
+	z-index: -1000;
+	left: -1000px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	transition: 0.1s;
+}
+
+input[type=checkbox].css-checkbox+label.css-label {
+	padding-left: 51px;
+	height: 41px;
+	display: inline-block;
+	line-height: 42px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	vertical-align: middle;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+input[type=checkbox].css-checkbox:checked+label.css-label {
+	background-position: 0 -41px;
+	transition: 0.1s;
+}
+
+label.css-label {
+	background-image: url(img/csscheckbox.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
